@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        app:key="color"
+        app:title="Select your favorite color"
+        app:summary="Select your favorite color"
+        app:entries="@array/color_entries"
+        app:entryValues="@array/color_values"
+        app:defaultValue="blue"
+        >
+    </ListPreference>
+    <EditTextPreference
+        app:key="number"
+        android:dialogTitle="Enter text"
+        app:summary="Enter your start number"
+        app:defaultValue="0"
+        app:title="Enter start number"
+        >
+    </EditTextPreference>
+
+</PreferenceScreen>

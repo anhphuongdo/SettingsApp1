@@ -1,0 +1,18 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="color_entries">
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Default_color</item>
+    </string-array>
+
+    <string-array name="color_values">
+        <item>blue</item>
+        <item>green</item>
+        <item>black</item>
+        <item>red</item>
+        <item>default_color</item>
+    </string-array>
+</resources>

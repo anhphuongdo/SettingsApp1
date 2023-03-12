@@ -6,7 +6,7 @@
         app:summary="Select your favorite color"
         app:entries="@array/color_entries"
         app:entryValues="@array/color_values"
-        app:defaultValue="blue"
+        app:defaultValue="default_color"
         >
     </ListPreference>
     <EditTextPreference
@@ -15,6 +15,7 @@
         app:summary="Enter your start number"
         app:defaultValue="0"
         app:title="Enter start number"
+        android:inputType ="number"
         >
     </EditTextPreference>
 

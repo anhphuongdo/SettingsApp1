@@ -43,11 +43,11 @@ public class SettingsFragment extends PreferenceFragmentCompat {
 
         mPreference = getActivity().getSharedPreferences(sharedPrefsFile, MODE_PRIVATE);
         currentNum = mPreference.getString("num", "0");
-        numPref.setSummary(currentNum);
+        numPref.setSummary("Your start number is: " + currentNum);
         numPref.setDefaultValue(currentNum);
 
         currentColor = mPreference.getString("current_color", currentColor);
-        colorPref.setSummary(currentColor);
+        colorPref.setSummary("Your default color is: " + currentColor);
         colorPref.setDefaultValue(currentColor);
 
         colorPref.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
